@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="vehiculos.html">Vehiculos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="testDrive.html">Test Drive</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container my-5">
+        
+        <!-- Acordeón de Bootstrap -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Información de la Empresa
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Aquí se incluirá información detallada sobre la empresa, su historia y cualquier otro dato relevante.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Misión
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        La misión de la empresa es proporcionar productos y servicios de alta calidad que satisfagan las necesidades de nuestros clientes.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Visión
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Nuestra visión es ser líderes en el mercado ofreciendo soluciones innovadoras y sostenibles para nuestros clientes.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fotos de empleados y redes sociales -->
+        <div class="my-5">
+            <h2 class="mb-4">Nuestro Equipo</h2>
+            <div class="row">
+                <!-- Empleado 1 -->
+                <div class="col-md-4 employee-card">
+                    <img src="../img/Ing1.jfif" alt="Empleado 1">
+                    <h5>Nombre Empleado 1</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga laboriosam ipsa tempora eius? Soluta temporibus placeat voluptatibus omnis aspernatur non minus earum dignissimos praesentium nisi laudantium, hic architecto ipsa. Nobis.</p>
+                    <a href="https://facebook.com" class="btn btn-outline-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" class="btn btn-outline-info mx-1"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" class="btn btn-outline-secondary mx-1"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!-- Empleado 2 -->
+                <div class="col-md-4 employee-card">
+                    <img src="../img/ing2.jfif" alt="Empleado 2">
+                    <h5>Nombre Empleado 2</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officia quos, recusandae, repellendus dolor reiciendis iusto repudiandae eveniet, odit ratione consequuntur aliquid id blanditiis laudantium iste molestiae possimus tempore ipsum.</p>
+                    <a href="https://facebook.com" class="btn btn-outline-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" class="btn btn-outline-info mx-1"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" class="btn btn-outline-secondary mx-1"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!-- Empleado 3 -->
+                <div class="col-md-4 employee-card">
+                    <img src="../img/ing3.jfif" alt="Empleado 3">
+                    <h5>Nombre Empleado 3</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa odit assumenda facere corporis incidunt sit, eaque eveniet nesciunt cum, porro maiores tenetur necessitatibus et rerum eius qui laudantium deleniti sed?</p>
+                    <a href="https://facebook.com" class="btn btn-outline-primary mx-1"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" class="btn btn-outline-info mx-1"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" class="btn btn-outline-secondary mx-1"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div class="text-center my-4">
+            <h4>Síguenos en</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/tuempresa" target="_blank" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/tuempresa" target="_blank" class="text-dark"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/tuempresa" target="_blank" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
